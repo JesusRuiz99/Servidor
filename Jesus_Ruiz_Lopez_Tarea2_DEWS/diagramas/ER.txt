@@ -1,0 +1,5 @@
+ninos(#idNino, nombreNino, apellidoNino,fechaNacimiento,bueno)
+juguetes(#idJuguete,nombreJuguete,precio, #idReyFK)
+reyes(#idRey,nombreRey)
+
+regalosNino(#idNinoFK, #idJuegueteFK)
